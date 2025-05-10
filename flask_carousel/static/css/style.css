@@ -1,0 +1,6 @@
+form {width: 250px; height: 130px;
+    margin-top: 250px;
+}
+button, input, label {
+    margin-bottom: 15px;
+}

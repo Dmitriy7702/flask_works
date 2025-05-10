@@ -1,0 +1,10 @@
+{% extends "carousel.html" %}
+{% block content %}
+<div class="d-flex justify-content-center align-items-center">
+<form enctype="multipart/form-data" method="post">
+    <label for="load_image">Добавить картинку</label>
+    <input  id="load_image" type="file" class="form-control" name="new_image">
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+</div>
+{% endblock %}
